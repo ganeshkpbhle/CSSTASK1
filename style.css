@@ -1,0 +1,163 @@
+.text1{
+    font-size:85px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin: auto;
+    font-stretch:ultra-expanded;
+    margin-left: 5px;
+}
+.text2{
+    font-size:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin: auto;
+    text-align: left;
+}
+.text3{
+    font-size:12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:400;
+    margin: auto;
+    padding: 5px;
+    font-stretch: ultra-condensed;
+    text-align: left;
+}
+.text4{
+    font-size:18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin: auto;
+    font-weight: 800;
+}
+.top{
+  
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-left:160px;
+    padding:2px;
+}
+.topleft{
+    float: left;
+    margin: auto;padding:5px;
+}
+.topright{
+    float: right;
+    margin: auto;padding:5px;
+}
+hr.new1{
+border:solid black;
+border-width: 0.5px;
+width: 870px;
+}
+hr.new2{
+    border:solid black;
+border-width: 0.5px;
+}
+hr.new3{
+    border:solid black;
+border-width: 0.5px;
+width: 250px;
+}
+hr.new4{
+border:solid black;
+border-width: 0.5px;
+width: 870px;
+margin-left:168px;
+}
+.shape{
+    text-align:center;
+    background-color:rgb(196, 86, 86);
+    width:80px;
+    height:30px;
+    line-height:30px;
+    color:white;
+    margin:15px auto;
+    position:relative;
+    font-size:16px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:300;
+    margin-left:0px;
+  }
+.shape::before{
+    content:"";
+    width:0px;
+    height:0px;
+    border-top:30px solid transparent;
+    border-left:5px solid rgb(196, 86, 86);
+    position:absolute;
+    left:100%;
+    top:0px;
+  }
+.flex-row{
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+  }
+.marginleft{
+    margin-left:160px;
+  }
+.image1{
+      margin-top:50px;
+      margin-right:220px;
+  }
+.horizontal-align {
+	display: inline-block;
+	vertical-align: top;
+    width: auto;
+	height: auto;
+    text-align:center;
+    margin-top:25px;
+    padding:10px;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    text-align: center;
+    padding:4px;
+}
+.item>img{
+    width: 250px;
+    height: 200px;
+}
+.caption {
+    display: block;
+}
+.marginleft1{
+    margin-left:169px;
+}
+.textp{
+    text-align: center;
+}
+.block3{
+    display:inline-block;
+    margin: auto;
+    border: solid black;
+    border-radius:20px;
+    width: 1188px;
+}
+.flex-column{
+    display:inline-flex;
+    flex-direction: column;
+}
+.image2{
+    margin-right:150px;
+    margin-top:10px;
+}
+.margintop{
+margin-top:-20px;
+}
+.rightattr{
+    margin-right:20px;
+}
+.image3{
+    margin: right 10px;
+}
+.rightattr1{
+    margin-right:40px;
+}
